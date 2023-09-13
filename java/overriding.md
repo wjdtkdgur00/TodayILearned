@@ -38,4 +38,15 @@ public class BusExam{
     }
 }
 ```
-* BusExam을 실행하면, "
+* BusExam을 실행하면, "Bus의 run메소드" 가 출력된다.
+* **메소드를 오버라이드 하면, 항상 자식클래스에서 정의된 메소드가 호출**된다.
+* 오버라이딩을 한다 해서 부모의 메소드가 사리지지 않는다.
+    * super 키워드를 이용하면, 부모의 메소드를 호출할 수 있다.
+```java
+public class Bus extends Car{
+    public void run(){
+        super.run();    // 부모의 run() 메소드를 호출
+        System.out.println("Bus의 run메소드");
+    }
+}
+```

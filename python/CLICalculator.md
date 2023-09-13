@@ -1,3 +1,4 @@
+```python
 def add(n,m):
     print(int(n)+int(m))
 
@@ -29,3 +30,4 @@ elif c=='^':
     square(n,m)
 else:
     print("안할거면 가셈ㅡㅡ")
+```
